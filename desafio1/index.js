@@ -30,7 +30,6 @@ class Usuario {
 const nico = new Usuario('Nicolás', 'Raffagnini')
 nico.addMascota('perro')
 nico.addMascota('gato')
-nico.countMascotas()
 nico.addBook('El señor de las moscas', 'William Golding')
 nico.addBook('Fundacion', 'Isaac Asimov')
 console.log(nico.countMascotas()) //devuelve la cantidad de mascotas
