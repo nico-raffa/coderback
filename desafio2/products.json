@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "title": "Calculadora",
+    "price": 234.56,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculathor-math-tool-school-256.png"
+  },
+  {
+    "id": 3,
+    "title": "Calculadora2",
+    "price": 234.56,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculathor-math-tool-school-256.png"
+  }
+]
