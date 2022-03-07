@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .form-products {
+    width: 600px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  .controls {
+    width: 75%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+  }
+  .form-products .buttons {
+    width: 100%;
+    background: #04aa6d;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .form-products .buttons:hover{
+      opacity: 80%;
+  }
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .form-products p {
+      margin-top: 10px;
+      width: 25%;
+      float: left;
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+    }

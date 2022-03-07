@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Globo terraqueo",
+    "price": "125",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+    "description": "Globo estratosferico",
+    "codebar": "1",
+    "id": 1
+  },
+  {
+    "name": "calculadora",
+    "price": "125",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png",
+    "description": "Calculadora cientifica",
+    "codebar": "2",
+    "id": 2
+  },
+  {
+    "name": "escuadra",
+    "price": "125",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "description": "Regla triangular",
+    "codebar": "2",
+    "id": 3
+  }
+]
