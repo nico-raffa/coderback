@@ -1,20 +1,28 @@
 [
   {
-    "name": "Globo terraqueo",
-    "price": "125",
-    "description": "Globo terraqueo",
+    "name": "Globo terráqueo",
+    "description": "Modelo tridimensional de la tierra representado a tamaño escala, sobre una esfera.",
+    "price": "500",
+    "stock": "50",
+    "codebar": "001",
     "imgUrl": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
     "id": 1
   },
   {
-    "name": "calculadora",
-    "price": "125",
+    "name": "Calculadora",
+    "description": "Dispositivo que se utiliza para realizar cálculos aritméticos",
+    "price": "1000",
+    "stock": "50",
+    "codebar": "002",
     "imgUrl": "https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png",
     "id": 2
   },
   {
-    "name": "escuadra",
-    "price": "125",
+    "name": "Escuadra",
+    "description": "Plantilla con forma de triángulo isósceles.",
+    "price": "200",
+    "stock": "50",
+    "codebar": "003",
     "imgUrl": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
     "id": 3
   }

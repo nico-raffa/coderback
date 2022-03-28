@@ -1,5 +1,5 @@
 import express from "express";
-import { routerProductos } from "./controllers/index.js";
+import { routerProductos, routerCarritos } from "./controllers/index.js";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 import { engine } from "express-handlebars";
@@ -21,7 +21,7 @@ app.engine(
 
 app.use(express.static("./src/public"));
 app.use("/api/productos", routerProductos);
-
+app.use("/api/carritos", routerCarritos);
 app.set("views", "./src/views");
 app.set("view engine", "hbs");
 app.get("/form", (req, res) => {

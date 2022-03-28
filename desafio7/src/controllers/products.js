@@ -1,5 +1,5 @@
 import { Contenedor } from "../services/products.js";
-const prod = new Contenedor("./src/data/products.json");
+export const prod = new Contenedor("./src/data/products.json");
 
 export class ControllerProductos {
   show = async (req, res) => {
