@@ -1,0 +1,26 @@
+[
+  {
+    "productos": [
+      {
+        "name": "Globo terraqueo",
+        "price": "125",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "description": "Globo estratosferico",
+        "codebar": "1",
+        "id": 1,
+        "timestamp": "11/8/2021, 4:39:06 PM"
+      },
+      {
+        "name": "calculadora",
+        "price": "125",
+        "thumbnail": "https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png",
+        "description": "Calculadora cientifica",
+        "codebar": "2",
+        "id": 2,
+        "timestamp": "11/8/2021, 4:39:16 PM"
+      }
+    ],
+    "id": 1,
+    "timestamp": "11/11/2021, 2:43:31 PM"
+  }
+]

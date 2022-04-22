@@ -1,0 +1,28 @@
+{
+	"name": "plantilla",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon -L --inspect --ignore '*.json' ./src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/express-handlebars": "^5.3.1",
+		"eslint": "^7.32.0",
+		"nodemon": "^2.0.12"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.3",
+		"express-handlebars": "^6.0.5",
+		"knex": "^0.95.14",
+		"mongoose": "5.9",
+		"mysql2": "^2.3.3"
+	}
+}
