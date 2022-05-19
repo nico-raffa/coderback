@@ -1,0 +1,54 @@
+<script src= "/socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="chat.css">
+<form id="formMensajes">
+<input  placeholder="Ingrese su correo" required>
+<input placeholder="Ingrese su nombre" required>
+<input placeholder="Ingrese su apellido" required>
+<input placeholder="Ingrese su edad" required>
+
+<input placeholder="Ingrese su alias" required>
+<input placeholder="Ingrese el url de su avatar" required>
+  <br>
+  <br>
+
+<textarea class="mensaje" placeholder="Ingrese su mensaje"></textarea>
+<button type="submit">Enviar</button>
+</form>
+<script>
+    const formMensajes = document.getElementById('formMensajes')
+    formMensajes.addEventListener('submit', e => {
+    e.preventDefault()
+    const ahora = new Date().toLocaleString()
+    const msg = {
+      author:{
+        id: formMensajes[0].value,
+        nombre: formMensajes[1].value,
+        apellido: formMensajes[2].value,
+        edad: formMensajes[3].value,
+        alias: formMensajes[4].value,
+        avatar: formMensajes[5].value,
+      },
+        text: formMensajes[6].value
+    }
+    socket.emit('mensajes', msg);
+    formMensajes.reset()
+})
+socket.on("mensaje", (mensaje)=>{
+  let inner = ''
+            mensaje.map((message)=>{
+                inner+= `
+                <div class="container">
+  <p><msj>${message.text}</msj></p> 
+  <img src=${message.author.avatar} alt="${message.author.alias}">
+  <br>
+  <br>
+  <br>
+  <br>
+  <span class="time-right"><email>${message.author.alias}</email> [<hora>${message._id}</hora>]</span>
+</div>                
+                `
+            })
+document.getElementById("messages").innerHTML = inner
+})
+        </script>
+<div id="messages"></div>

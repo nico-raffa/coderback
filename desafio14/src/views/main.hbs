@@ -1,0 +1,45 @@
+<a href="/form">Agregar productos</a>
+<head>
+<script src= "/socket.io/socket.io.js"></script>
+	
+<link rel="stylesheet" href="/main.css">
+</head>
+
+<section class="products products-table">
+
+	Bienvenido {{user}}, {{email}}
+	{{!-- logout --}}
+	<a href="/logout">Logout</a>
+		{{#if getProds}}
+			<h1>Lista de productos</h1>
+						{{#each getProds}}
+						<div class="product">							
+								<div class="product-img">
+									<img src={{this.thumbnail}} alt={{this.name}} WIDTH=64 HEIGHT=64>
+								</div>							
+							<div class="product-content">
+								<h3>
+									{{this.name}}
+									<small>{{this.description}}</small>
+								</h3>
+								<p class="product-text price">${{this.price}}</p>
+								<h5>Codigo: {{this.codebar}}</h4>
+                                {{!-- <button id="addToCart" >Agregar al carrito</button>
+								<div class="button-minimalist" id="del">X</div> --}}
+							</div>
+							<br>						
+							<br>						
+							<hr>
+						</div>
+
+						{{/each}}
+				{{else}}
+				
+					<div class="aviso">
+						No hay productos para mostrar
+					</div>
+				{{/if}}
+
+	</section>
+	<script >
+</script>

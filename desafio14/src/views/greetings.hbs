@@ -1,0 +1,20 @@
+{{#if login}}
+
+<h1>
+Bienvenido {{user}}!
+
+</h1>
+<script>
+    setTimeout(function() {
+        window.location.href = "/api/productos";
+    }, 3000);
+</script>
+{{else}}
+<h1>Hasta luego {{user}}!</h1>
+<script>
+    setTimeout(function() {
+        window.location.href = "/api/login";
+    }, 3000);
+</script>
+{{/if}}
+
